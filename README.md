@@ -4,6 +4,8 @@ This is a simple extension of the great ToDo List you can find here : [Tusharnan
 
 In this version, instead of storing the tasks and theme in the local storage, they are stored on an express server. They will be preserved, as long as the server remanins active.
 
+![Screenshot (773)](https://user-images.githubusercontent.com/61280281/99399728-0d096d00-290c-11eb-9ee5-59cc8358676c.png)
+
 ## Installation
 
 ```sh
