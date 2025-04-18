@@ -1,0 +1,6 @@
+services:
+  webapp:
+    build: .
+    container_name: todo
+    restart: unless-stopped
+    network_mode: host 
