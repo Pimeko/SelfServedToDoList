@@ -206,11 +206,11 @@ async function changeTheme(color) {
 }
 
 async function getData(url) {
-    return await fetch('http://localhost:2696/api/' + url)
+    return await fetch('/api/' + url)
 }
 
 async function postData(url, body) {
-    return await fetch('http://localhost:2696/api/' + url, {
+    return await fetch('/api/' + url, {
         method: "POST",
         body: JSON.stringify(body),
         headers: {
